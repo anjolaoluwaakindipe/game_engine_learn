@@ -1,1 +1,3 @@
-add_executable(game_engine_learn main.cpp)
+add_subdirectory(gui)
+add_subdirectory(engine)
+add_subdirectory(graphics)
