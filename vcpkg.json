@@ -1,7 +1,7 @@
 {
-    "name": "game_engine_learn",
+    "name": "game-engine-learn",
     "version": "0.0.1",
     "dependencies": [
-    
+    "wxwidgets"
     ]
 }
