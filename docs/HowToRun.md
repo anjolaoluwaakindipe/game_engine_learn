@@ -5,6 +5,7 @@ $ cmake -B build -S .
 $ cmake --build build
 $ ./build/src/gui/gui
 ```
+
 ## Windows
 ```
 $ cmake -B build -S .
