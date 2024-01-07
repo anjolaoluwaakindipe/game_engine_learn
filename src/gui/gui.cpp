@@ -1,11 +1,5 @@
 #include "gui.h"
 
-// int main(){
-//     std::cout << "Hello, from gui. We will be using wxWidget!\n";
-//     engine();
-//     graphics();
-//     return 0;
-// }
 // wxWidgets "Hello World" Program
  
 // For compilers that support precompilation, includes "wx/wx.h".
