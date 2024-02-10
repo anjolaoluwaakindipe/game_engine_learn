@@ -62,8 +62,8 @@ jobs:
         echo "build-output-dir=${{ github.workspace }}/build" >> "$GITHUB_OUTPUT"
 
     - name: Install libs
+      # sudo apt-add-repository 'deb https://repos.codelite.org/wx3.2.0/ubuntu/ jammy universe'
       run: |
-        sudo apt-add-repository 'deb https://repos.codelite.org/wx3.2.0/ubuntu/ jammy universe'
         sudo apt-get update
         apt-get install libwxbase3.2-0-unofficial \
                 libwxbase3.2unofficial-dev \
