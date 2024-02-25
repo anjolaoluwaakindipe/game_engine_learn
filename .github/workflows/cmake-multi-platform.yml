@@ -63,6 +63,7 @@ jobs:
 
     - name: Vcpkg setup
       run: |
+        ls ${{ github.workspace }}/vcpkg
         ./${{ github.workspace }}/vcpkg/bootstrap-vcpkg.sh
 
     - name: Configure CMake
