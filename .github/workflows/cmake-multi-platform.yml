@@ -63,7 +63,9 @@ jobs:
 
     - name: Vcpkg setup
       run: |
+        git submodule update --init
         ls ${{ github.workspace }}
+        ls ${{ github.workspace }}/vcpkg
         ./${{ github.workspace }}/vcpkg/bootstrap-vcpkg.sh
 
     - name: Configure CMake
